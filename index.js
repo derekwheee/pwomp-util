@@ -1,5 +1,6 @@
 module.exports = {
     fileToViewObject : require('./lib/fileToViewObject'),
+    fileToViewObjectSync : require('./lib/fileToViewObjectSync'),
     getViewNameFromFilename : require('./lib/getViewNameFromFilename'),
     getViewsSync : require('./lib/getViewsSync'),
     getViewTypeFromName : require('./lib/getViewTypeFromName'),
