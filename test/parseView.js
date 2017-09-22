@@ -3,9 +3,11 @@ const test = require('ava');
 const getViewsSync = require('../lib/getViewsSync');
 const parseView = require('../lib/parseView');
 
+require('./common/bootstrap');
+
 test('get views', t => {
 
-    const file = getViewsSync('./test/assets')[0];
+    const file = getViewsSync('./src/views')[0];
     const content = fs.readFileSync(file, 'utf-8');
     const view = parseView({ template : content });
 

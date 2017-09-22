@@ -3,9 +3,11 @@ const test = require('ava');
 const getViewsSync = require('../lib/getViewsSync');
 const parseMetadata = require('../lib/parseMetadata');
 
+require('./common/bootstrap');
+
 test('get views', t => {
 
-    const file = getViewsSync('./test/assets')[0];
+    const file = getViewsSync('./src/views')[0];
     const content = fs.readFileSync(file, 'utf-8');
     const metadata = parseMetadata(content.match(/^---[\s\S]*---/));
     const metadata2 = parseMetadata();

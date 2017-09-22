@@ -1,6 +1,6 @@
 {
   "name": "exemplar-util",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for Exemplar plugins",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,8 @@
   "ava": {
     "files": [
       "test/**/*.js",
-      "!test/assets/**/*"
+      "!test/assets/**/*",
+      "!test/common/**/*"
     ]
   },
   "devDependencies": {
@@ -29,6 +30,7 @@
   },
   "dependencies": {
     "fs-extra": "^4.0.2",
-    "glob": "^7.1.2"
+    "glob": "^7.1.2",
+    "rc": "^1.2.1"
   }
 }
