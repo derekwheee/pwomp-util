@@ -1,8 +1,8 @@
+require('./common/bootstrap');
+
 const path = require('path');
 const test = require('ava');
 const getViewNameFromFilename = require('../lib/getViewNameFromFilename');
-
-require('./common/bootstrap');
 
 test('get view name', t => {
 

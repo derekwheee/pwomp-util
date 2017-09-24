@@ -1,8 +1,8 @@
+require('./common/bootstrap');
+
 const path = require('path');
 const test = require('ava');
 const settings = require('../lib/settings');
-
-require('./common/bootstrap');
 
 test('get path', t => {
 

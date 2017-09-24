@@ -1,3 +1,5 @@
+require('./common/bootstrap');
+
 const test = require('ava');
 const fileToViewObject = require('../lib/fileToViewObject');
 const getViewUrl = require('../lib/getViewUrl');

@@ -1,9 +1,9 @@
+require('./common/bootstrap');
+
 const fs = require('fs-extra');
 const test = require('ava');
 const getViewsSync = require('../lib/getViewsSync');
 const parseMetadata = require('../lib/parseMetadata');
-
-require('./common/bootstrap');
 
 test('get views', t => {
 

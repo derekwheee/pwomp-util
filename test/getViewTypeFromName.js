@@ -1,8 +1,8 @@
+require('./common/bootstrap');
+
 const path = require('path');
 const test = require('ava');
 const getViewTypeFromName = require('../lib/getViewTypeFromName');
-
-require('./common/bootstrap');
 
 test('get view type', t => {
 

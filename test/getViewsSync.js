@@ -1,7 +1,7 @@
+require('./common/bootstrap');
+
 const test = require('ava');
 const getViewsSync = require('../lib/getViewsSync');
-
-require('./common/bootstrap');
 
 test('get views', t => {
 

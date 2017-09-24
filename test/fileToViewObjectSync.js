@@ -1,7 +1,7 @@
+require('./common/bootstrap');
+
 const test = require('ava');
 const fileToViewObjectSync = require('../lib/fileToViewObjectSync');
-
-require('./common/bootstrap');
 
 test('file to view', t => {
 

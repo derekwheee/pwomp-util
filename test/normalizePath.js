@@ -1,8 +1,8 @@
+require('./common/bootstrap');
+
 const path = require('path');
 const test = require('ava');
 const normalizePath = require('../lib/normalizePath');
-
-require('./common/bootstrap');
 
 test('normalize path', t => {
 

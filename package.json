@@ -1,6 +1,6 @@
 {
   "name": "exemplar-util",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Utilities for Exemplar plugins",
   "main": "index.js",
   "scripts": {
