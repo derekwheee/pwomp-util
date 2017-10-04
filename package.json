@@ -1,21 +1,21 @@
 {
-  "name": "exemplar-util",
+  "name": "pwomp-util",
   "version": "0.0.6",
-  "description": "Utilities for Exemplar plugins",
+  "description": "Utilities for Pwomp plugins",
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc ava"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frxnz/exemplar-util.git"
+    "url": "git+https://github.com/frxnz/pwomp-util.git"
   },
   "author": "Derek Wheelden",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frxnz/exemplar-util/issues"
+    "url": "https://github.com/frxnz/pwomp-util/issues"
   },
-  "homepage": "https://github.com/frxnz/exemplar-util#readme",
+  "homepage": "https://github.com/frxnz/pwomp-util#readme",
   "ava": {
     "files": [
       "test/**/*.js",

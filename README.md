@@ -1,8 +1,8 @@
-# exemplar-util
+# pwomp-util
 
-[![Build Status](https://travis-ci.org/frxnz/exemplar-util.svg?branch=master)](https://travis-ci.org/frxnz/exemplar-util)
+[![Build Status](https://travis-ci.org/frxnz/pwomp-util.svg?branch=master)](https://travis-ci.org/frxnz/pwomp-util)
 
-Utilities for Exemplar plugins
+Utilities for Pwomp plugins
 
 Usage
 -----
@@ -10,5 +10,5 @@ Usage
 Installation
 
 ```bash
-npm install -S exemplar-util
+npm install -S pwomp-util
 ```
