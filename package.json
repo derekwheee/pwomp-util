@@ -1,6 +1,6 @@
 {
   "name": "pwomp-util",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Utilities for Pwomp plugins",
   "main": "index.js",
   "scripts": {
